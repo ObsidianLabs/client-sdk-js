@@ -20,7 +20,7 @@
         }
     ],
     "scripts": {
-        "postinstall": "lerna bootstrap",
+        "postinstall": "lerna bootstrap --no-ci",
         "build": "gulp",
         "build-all": "gulp all",
         "release": "lerna bootstrap; lerna publish",
